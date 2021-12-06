@@ -152,7 +152,7 @@ body {
   margin-bottom: 15px;
 }
 
-.repo .repo_details {
+.repo .repo_details .repo_ {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +164,7 @@ body {
       flex-wrap: wrap;
 }
 
-.repo .repo_details .item_ {
+.repo  .repo_details .item_ {
   width: 47%;
   border: 1px solid #424141;
   border-radius: 5px;
@@ -190,6 +190,22 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+
+.repo .repo_details  .item_ .repo_details_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+
 .input_wrapper {
   position: relative;
   width: 500px;
